@@ -1,8 +1,6 @@
-using Azure.Core;
-using Azure.Identity;
 using System.Diagnostics;
 
-namespace keyvault_webapp
+namespace net_base_webapp_netcoremvc
 {
     public class Program
     {
@@ -11,12 +9,6 @@ namespace keyvault_webapp
             try
             {
                 var builder = WebApplication.CreateBuilder(args);
-
-                Console.WriteLine(builder.Configuration.GetValue<string>("SecretNameAppSettings"));
-
-                TokenCredential credential = new DefaultAzureCredential();
-
-                builder.Configuration.AddAzureKeyVault(new Uri("https://luiscasalas16-key-vault.vault.azure.net/"), credential);
 
                 builder.Services.AddControllersWithViews();
 

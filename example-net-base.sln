@@ -8,9 +8,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "keyvault-webapp-netcoremvc", "keyvault-webapp-netcoremvc\keyvault-webapp-netcoremvc.csproj", "{4D6301B2-D47B-413A-BE8B-8FA22FFFD970}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "net-base-console", "net-base-console\net-base-console.csproj", "{A089DAEE-0D48-427B-A47C-AC869E158A8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "keyvault-console", "keyvault-console\keyvault-console.csproj", "{C2EB24F9-C78E-4B62-BE78-2B1040317C85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "net-base-webapp-netcoremvc", "net-base-webapp-netcoremvc\net-base-webapp-netcoremvc.csproj", "{5110B71C-9E68-426D-86E1-A00C31E02C0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,14 +18,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4D6301B2-D47B-413A-BE8B-8FA22FFFD970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D6301B2-D47B-413A-BE8B-8FA22FFFD970}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D6301B2-D47B-413A-BE8B-8FA22FFFD970}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D6301B2-D47B-413A-BE8B-8FA22FFFD970}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C2EB24F9-C78E-4B62-BE78-2B1040317C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2EB24F9-C78E-4B62-BE78-2B1040317C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2EB24F9-C78E-4B62-BE78-2B1040317C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2EB24F9-C78E-4B62-BE78-2B1040317C85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A089DAEE-0D48-427B-A47C-AC869E158A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A089DAEE-0D48-427B-A47C-AC869E158A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A089DAEE-0D48-427B-A47C-AC869E158A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A089DAEE-0D48-427B-A47C-AC869E158A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5110B71C-9E68-426D-86E1-A00C31E02C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5110B71C-9E68-426D-86E1-A00C31E02C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5110B71C-9E68-426D-86E1-A00C31E02C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5110B71C-9E68-426D-86E1-A00C31E02C0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace keyvault_webapp.Controllers
+namespace net_base_webapp_netcoremvc.Controllers
 {
     public class HomeController : Controller
     {
@@ -15,10 +15,6 @@ namespace keyvault_webapp.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.SecretNameKeyVault = _configuration["SecretNameKeyVault"];
-            ViewBag.SecretNameUserSecrets = _configuration["SecretNameUserSecrets"];
-            ViewBag.SecretNameAppSettings = _configuration["SecretNameAppSettings"];
-
             return View();
         }
     }

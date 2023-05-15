@@ -1,12 +1,10 @@
-﻿using Azure.Core;
-using Azure.Identity;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 
-namespace keyvault_console
+namespace net_base_console
 {
     internal class Program
     {
@@ -18,16 +16,6 @@ namespace keyvault_console
                     .ConfigureServices((services) =>
                     {
                         services.AddHostedService<Application>();
-                    })
-                    .ConfigureAppConfiguration((configuration) =>
-                    {
-                        var settings = configuration.Build();
-
-                        Console.WriteLine(settings["SecretNameAppSettings"]);
-
-                        TokenCredential credential = new DefaultAzureCredential();
-
-                        configuration.AddAzureKeyVault(new Uri("https://luiscasalas16-key-vault.vault.azure.net/"), credential);
                     })
                     .Build();
 
@@ -54,9 +42,12 @@ namespace keyvault_console
 
             private void Start()
             {
-                Console.WriteLine($"SecretNameKeyVault {_configuration["SecretNameKeyVault"]}");
-                Console.WriteLine($"SecretNameUserSecrets {_configuration["SecretNameUserSecrets"]}");
-                Console.WriteLine($"SecretNameAppSettings {_configuration["SecretNameAppSettings"]}");
+                _logger.LogCritical("Custom logging critical.");
+                _logger.LogError("Custom logging error.");
+                _logger.LogWarning("Custom logging warning.");
+                _logger.LogInformation("Custom logging information.");
+                _logger.LogDebug("Custom logging debug.");
+                _logger.LogTrace("Custom logging trace.");
             }
 
             private void Stop()
