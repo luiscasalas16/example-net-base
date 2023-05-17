@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "net-base-console", "net-base-console\net-base-console.csproj", "{A089DAEE-0D48-427B-A47C-AC869E158A8E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "net-base-webapp-netcoremvc", "net-base-webapp-netcoremvc\net-base-webapp-netcoremvc.csproj", "{5110B71C-9E68-426D-86E1-A00C31E02C0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "net-base-webapp-mvc", "net-base-webapp-mvc\net-base-webapp-mvc.csproj", "{9A2DCBA2-AE68-4867-B3A1-59A4D45C8D65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,10 +22,10 @@ Global
 		{A089DAEE-0D48-427B-A47C-AC869E158A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A089DAEE-0D48-427B-A47C-AC869E158A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A089DAEE-0D48-427B-A47C-AC869E158A8E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5110B71C-9E68-426D-86E1-A00C31E02C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5110B71C-9E68-426D-86E1-A00C31E02C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5110B71C-9E68-426D-86E1-A00C31E02C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5110B71C-9E68-426D-86E1-A00C31E02C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A2DCBA2-AE68-4867-B3A1-59A4D45C8D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A2DCBA2-AE68-4867-B3A1-59A4D45C8D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A2DCBA2-AE68-4867-B3A1-59A4D45C8D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A2DCBA2-AE68-4867-B3A1-59A4D45C8D65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
