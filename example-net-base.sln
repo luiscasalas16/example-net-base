@@ -12,9 +12,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "net-base-console", "net-bas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "net-base-web-mvc", "net-base-web-mvc\net-base-web-mvc.csproj", "{B9430087-D3EF-4BDC-AE9D-8270B36ACC24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netfw-base-console", "..\example-azure\keyvault\keyvault-netfw-console\netfw-base-console.csproj", "{382BDAF6-10BC-4374-ADBD-2ACC7CFDBF88}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netfw-base-console", "netfw-base-console\netfw-base-console.csproj", "{382BDAF6-10BC-4374-ADBD-2ACC7CFDBF88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netfw-base-web-mvc", "..\example-azure\keyvault\keyvault-netfw-web-mvc\netfw-base-web-mvc.csproj", "{2A31956B-3C0A-4FFD-8319-46D4C0638BE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netfw-base-web-mvc", "netfw-base-web-mvc\netfw-base-web-mvc.csproj", "{2A31956B-3C0A-4FFD-8319-46D4C0638BE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

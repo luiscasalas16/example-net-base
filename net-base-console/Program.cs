@@ -42,6 +42,7 @@ namespace net_base_console
 
             private void Start()
             {
+                Console.WriteLine("Hello World");
             }
 
             private void Stop()
