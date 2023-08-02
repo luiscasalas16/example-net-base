@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace keyvault_netfw_console
 {
@@ -6,7 +7,18 @@ namespace keyvault_netfw_console
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            try
+            {
+                Console.WriteLine("Hello World");
+            }
+            catch (Exception ex)
+            {
+                Trace.WriteLine(ex.ToString());
+
+                Console.WriteLine(ex.ToString());
+            }
+
+            Console.Write("Press enter to close this window . . .");
             Console.ReadLine();
         }
     }
