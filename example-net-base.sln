@@ -8,13 +8,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "net-base-console", "net-base-console\net-base-console.csproj", "{A089DAEE-0D48-427B-A47C-AC869E158A8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetBaseConsole", "NetBaseConsole\NetBaseConsole.csproj", "{7A3B6CC5-CBEB-42DE-B646-A150ACD90339}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "net-base-web-mvc", "net-base-web-mvc\net-base-web-mvc.csproj", "{B9430087-D3EF-4BDC-AE9D-8270B36ACC24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetBaseWebMvc", "NetBaseWebMvc\NetBaseWebMvc.csproj", "{5FC78FE0-2019-4855-BA40-7ABDBC8B7484}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netfw-base-console", "netfw-base-console\netfw-base-console.csproj", "{382BDAF6-10BC-4374-ADBD-2ACC7CFDBF88}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFwBaseConsole", "NetFwBaseConsole\NetFwBaseConsole.csproj", "{382BDAF6-10BC-4374-ADBD-2ACC7CFDBF88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netfw-base-web-mvc", "netfw-base-web-mvc\netfw-base-web-mvc.csproj", "{2A31956B-3C0A-4FFD-8319-46D4C0638BE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFwBaseWebMvc", "NetFwBaseWebMvc\NetFwBaseWebMvc.csproj", "{2A31956B-3C0A-4FFD-8319-46D4C0638BE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,14 +22,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A089DAEE-0D48-427B-A47C-AC869E158A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A089DAEE-0D48-427B-A47C-AC869E158A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A089DAEE-0D48-427B-A47C-AC869E158A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A089DAEE-0D48-427B-A47C-AC869E158A8E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B9430087-D3EF-4BDC-AE9D-8270B36ACC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9430087-D3EF-4BDC-AE9D-8270B36ACC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9430087-D3EF-4BDC-AE9D-8270B36ACC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9430087-D3EF-4BDC-AE9D-8270B36ACC24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A3B6CC5-CBEB-42DE-B646-A150ACD90339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A3B6CC5-CBEB-42DE-B646-A150ACD90339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A3B6CC5-CBEB-42DE-B646-A150ACD90339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A3B6CC5-CBEB-42DE-B646-A150ACD90339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FC78FE0-2019-4855-BA40-7ABDBC8B7484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FC78FE0-2019-4855-BA40-7ABDBC8B7484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FC78FE0-2019-4855-BA40-7ABDBC8B7484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FC78FE0-2019-4855-BA40-7ABDBC8B7484}.Release|Any CPU.Build.0 = Release|Any CPU
 		{382BDAF6-10BC-4374-ADBD-2ACC7CFDBF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{382BDAF6-10BC-4374-ADBD-2ACC7CFDBF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{382BDAF6-10BC-4374-ADBD-2ACC7CFDBF88}.Release|Any CPU.ActiveCfg = Release|Any CPU

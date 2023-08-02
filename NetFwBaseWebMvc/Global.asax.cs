@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace keyvault_netfw_web_mvc
+namespace NetFwBaseWebMvc
 {
     public class MvcApplication : System.Web.HttpApplication
     {

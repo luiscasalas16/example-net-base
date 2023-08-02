@@ -1,6 +1,6 @@
 using System.Diagnostics;
 
-namespace net_base_webapp_mvc
+namespace NetBaseWebMvc
 {
     public class Program
     {

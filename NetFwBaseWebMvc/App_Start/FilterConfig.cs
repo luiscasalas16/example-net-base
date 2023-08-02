@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace keyvault_netfw_web_mvc
+namespace NetFwBaseWebMvc
 {
     public class FilterConfig
     {
