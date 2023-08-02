@@ -9,6 +9,7 @@ namespace NetFwBaseConsole
         {
             try
             {
+                Console.WriteLine(".Net Framework Console");
                 Console.WriteLine("Hello World");
             }
             catch (Exception ex)

@@ -42,6 +42,7 @@ namespace NetBaseConsole
 
             private void Start()
             {
+                Console.WriteLine(".Net Console");
                 Console.WriteLine("Hello World");
             }
 
