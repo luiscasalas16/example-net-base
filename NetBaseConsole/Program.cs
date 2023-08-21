@@ -29,7 +29,7 @@ namespace NetBaseConsole
             }
         }
 
-        class Application : IHostedService
+        public class Application : BackgroundService
         {
             private readonly ILogger<Application> _logger;
             private readonly IConfiguration _configuration;
@@ -40,26 +40,10 @@ namespace NetBaseConsole
                 _configuration = configuration;
             }
 
-            private void Start()
+            protected override async Task ExecuteAsync(CancellationToken stoppingToken)
             {
                 Console.WriteLine(".Net Console");
                 Console.WriteLine("Hello World");
-            }
-
-            private void Stop()
-            {
-            }
-
-            public Task StartAsync(CancellationToken cancellationToken)
-            {
-                Start();
-                return Task.CompletedTask;
-            }
-
-            public Task StopAsync(CancellationToken cancellationToken)
-            {
-                Stop();
-                return Task.CompletedTask;
             }
         }
     }
