@@ -43,7 +43,7 @@ namespace NetBaseConsole
             protected override async Task ExecuteAsync(CancellationToken stoppingToken)
             {
                 Console.WriteLine(".Net Console");
-                Console.WriteLine("Hello World");
+                Console.WriteLine("Hello World " + DateTime.UtcNow.AddHours(-6).ToString("yyyy-MM-dd_HH-mm-ss-fffff"));
             }
         }
     }
